@@ -34,4 +34,4 @@ jobs:
 
       - name: Update ECS service
         run: |
-          aws ecs update-service --cluster nodejs-api-cluster --service nodejs-api-service --force-new-deployment
+          aws ecs update-service --cluster nodejs-api --service nodejs-api-service --force-new-deployment
