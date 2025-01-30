@@ -9,4 +9,8 @@ router.get("/ping", (req, res) => {
   res.send("pong");
 });
 
+router.get("/ecs", (req, res) => {
+  res.send("running_bruv");
+});
+
 export default router;
